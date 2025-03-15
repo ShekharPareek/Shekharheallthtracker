@@ -110,7 +110,7 @@ var MemStorage = class {
 };
 var storage = new MemStorage();
 
-// shared/schema.ts
+// shared/schema.ts.....
 import { pgTable, text, serial, integer, boolean, timestamp } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";
 var users = pgTable("users", {
