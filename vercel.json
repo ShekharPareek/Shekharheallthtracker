@@ -24,10 +24,8 @@
             "dest": "/public/index.html"
         }
     ],
-    "build": {
-        "env": {
-            "NODE_ENV": "development",
-            "npm_config_optional": "true"
-        }
+    "env": {
+        "NODE_ENV": "development",
+        "npm_config_optional": "true"
     }
 }
