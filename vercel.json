@@ -26,9 +26,8 @@
     ],
     "build": {
         "env": {
-            "npm_config_optional": "true",
-            "NODE_ENV": "development"
-        },
-        "installCommand": "npm install --legacy-peer-deps --include=optional"
+            "NODE_ENV": "development",
+            "npm_config_optional": "true"
+        }
     }
 }
